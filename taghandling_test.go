@@ -10,6 +10,7 @@ func TestTagHandlingStrategy_Value_String(t *testing.T) {
 	tests := map[deepl.TagHandlingStrategy]string{
 		deepl.DefaultTagHandling: "",
 		deepl.XMLTagHandling:     "xml",
+		deepl.XMLTagHandling:     "html",
 	}
 
 	for strategy, want := range tests {
