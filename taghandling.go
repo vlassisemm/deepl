@@ -8,6 +8,8 @@ const (
 	// the structure, splitting it into individual sentences, translating them,
 	// and placing them back into the XML structure.
 	XMLTagHandling = TagHandlingStrategy("xml")
+	// HTMLTagHandling adds support for html handling ( still in beta )
+	HTMLTagHandling = TagHandlingStrategy("html")
 )
 
 // TagHandlingStrategy is a `tag_handling` option.
